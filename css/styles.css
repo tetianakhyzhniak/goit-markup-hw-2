@@ -79,6 +79,9 @@ line-height: 1.2px;
     color: var(--color-logo-button);
     background-color: var(--color-logo-footer);
     font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .filtr-nav li :hover, .filtr-nav li :focus{
     color: var(--primary-white-color);
@@ -120,4 +123,11 @@ line-height: 1.2px;
 }
 a{
     text-decoration: none;
+}
+/* Портфолио */
+.title-project{
+    color: var(--color-title);
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
 }
