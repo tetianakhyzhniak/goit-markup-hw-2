@@ -1,0 +1,123 @@
+:root {
+    --primary-white-color:#FFFF;
+    --color-logo-button:rgba(77, 90, 229, 1);
+    --color-title:rgba(46, 47, 66, 1);
+    --color-text:rgba(67, 68, 85, 1);
+    --color-secondory:rgba(255, 255, 255, 1);
+    --color-footer:rgba(231, 233, 252, 1);
+    --color-logo-footer:rgba(244, 244, 253, 1);
+
+}
+.list{
+    list-style: none;
+}
+body{
+    background-color: var(--primary-white-color);
+    color: var(--color-text);
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    letter-spacing: 0.02em;
+
+}
+/* хедер  */
+.contacts{
+    color: var(--color-text);
+}
+.contacts :hover, .contacts:focus{
+color:var(--color-logo-button);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
+.site-nav a {
+color: var(--color-title);
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+}
+.site-nav :hover, .site-nav:focus{
+    color: var(--color-logo-button);
+}
+.logo-color{
+    color: var(--color-logo-button);
+}
+.logo{
+    font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+text-transform: uppercase;
+    color: var(--color-title);
+}
+
+/* h2 h3 */
+.section-title{
+    color: var(--color-title);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+.advantage-list .title{
+    color: var(--color-title);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.list-team .title{
+color: var(--color-title);
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2px;
+}
+.list-projects .title{
+    color: var(--color-title);
+}
+/* панель навігації портфоліо */
+.filtr-nav .button{
+    color: var(--color-logo-button);
+    background-color: var(--color-logo-footer);
+    font-family: inherit;
+}
+.filtr-nav li :hover, .filtr-nav li :focus{
+    color: var(--primary-white-color);
+    background-color: var(--color-logo-button);
+}
+/* hero */
+.section-title-hero{
+    color: var(--primary-white-color);
+    background-color: #2E2F42;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+}
+.button-hero{
+    font-family: inherit;
+    color: var(--primary-white-color);
+    background-color: var(--color-logo-button);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    align-items: center;
+    letter-spacing: 0.04em;
+}
+.button-hero:active{
+    background-color: #404BBF;
+    color:var(--primary-white-color);
+}
+/* футер */
+.recommend{
+    background-color: #2E2F42;
+    color: var(--color-footer);
+}
+.recommend a{
+    color:var(--color-logo-footer);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
