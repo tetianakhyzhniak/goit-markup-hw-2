@@ -14,38 +14,43 @@
 body{
     background-color: var(--primary-white-color);
     color: var(--color-text);
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
 
 }
 /* хедер  */
 .contacts{
-    color: var(--color-text);
+    color: var(--color-title);
 }
-.contacts :hover, .contacts:focus{
-color:var(--color-logo-button);
-font-weight: 400;
+.contacts:active{
+    color: var(--color-logo-button);
+}
+.contacts:hover, .contacts:focus{
+color:var(--color-text);
 font-size: 16px;
 line-height: 1.5;
 }
 .site-nav a {
 color: var(--color-title);
-font-weight: 600;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 }
-.site-nav :hover, .site-nav:focus{
+.site-nav a:active{
     color: var(--color-logo-button);
+}
+.site-nav a:hover, .site-nav:focus{
+    color:var(--color-text);
 }
 .logo-color{
     color: var(--color-logo-button);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
 }
 .logo{
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
@@ -56,7 +61,7 @@ text-transform: uppercase;
 /* h2 h3 */
 .section-title{
     color: var(--color-title);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -64,14 +69,13 @@ text-transform: uppercase;
 }
 .advantage-list .title{
     color: var(--color-title);
-    font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
 .list-team .title{
 color: var(--color-title);
-font-weight: 600;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2px;
 }
@@ -79,23 +83,30 @@ line-height: 1.2px;
     color: var(--color-title);
 }
 /* панель навігації портфоліо */
-.filtr-nav .button{
+.button-projects{
     color: var(--color-logo-button);
     background-color: var(--color-logo-footer);
     font-family: inherit;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    cursor: pointer;
 }
-.filtr-nav li :hover, .filtr-nav li :focus{
+.button-projects:hover, .button-projects:focus{
     color: var(--primary-white-color);
     background-color: var(--color-logo-button);
 }
+.button-projects:active{
+    background-color: #404BBF;
+    color:var(--primary-white-color);
+}
 /* hero */
+.section-hero{
+    background-color: var(--color-title);
+}
 .section-title-hero{
     color: var(--primary-white-color);
-    background-color: #2E2F42;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -104,15 +115,20 @@ line-height: 1.2px;
     font-family: inherit;
     color: var(--primary-white-color);
     background-color: var(--color-logo-button);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     align-items: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .button-hero:active{
     background-color: #404BBF;
     color:var(--primary-white-color);
+}
+.button-hero:hover, .button-hero:focus{
+    color: var(--primary-white-color);
+    background-color: var(--color-logo-button);
 }
 /* футер */
 .recommend{
@@ -121,7 +137,6 @@ line-height: 1.2px;
 }
 .recommend a{
     color:var(--color-logo-footer);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -131,7 +146,18 @@ a{
 /* Портфолио */
 .title-project{
     color: var(--color-title);
-font-weight: 600;
+font-weight: 500;
 font-size: 20px;
 line-height: 24px;
+}
+/* невидимий заголовок */
+.visually-hidden{
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
