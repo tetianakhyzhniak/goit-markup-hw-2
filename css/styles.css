@@ -21,14 +21,14 @@ body{
 /* хедер  */
 .contacts{
     color: var(--color-title);
+    font-size: 16px;
+    line-height: 1.5;
 }
 .contacts:active{
     color: var(--color-logo-button);
 }
 .contacts:hover, .contacts:focus{
-color:var(--color-text);
-font-size: 16px;
-line-height: 1.5;
+color:var(--color-logo-button);
 }
 .site-nav a {
 color: var(--color-title);
