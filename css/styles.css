@@ -37,7 +37,7 @@ font-size: 16px;
 line-height: 1.5;
 }
 .site-nav:active{
-    color: #4D5AE5;
+    color: var(--color-logo-button);
 }
 .site-nav:hover, .site-nav:focus {
     color: var(--color-text);
