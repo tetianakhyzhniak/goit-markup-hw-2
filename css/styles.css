@@ -39,9 +39,13 @@ line-height: 1.5;
 }
 .logo-color{
     color: var(--color-logo-button);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
 }
 .logo{
-    font-family: 'Raleway';
+font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
