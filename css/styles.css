@@ -24,23 +24,23 @@ body{
     font-size: 16px;
     line-height: 1.5;
 }
-.contacts:active{
+.contacts:active {
     color: var(--color-logo-button);
 }
 .contacts:hover, .contacts:focus{
 color:var(--color-logo-button);
 }
-.site-nav a {
+.site-nav{
 color: var(--color-title);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 }
-.site-nav a:active{
-    color: var(--color-logo-button);
+.site-nav:active{
+    color: #4D5AE5;
 }
-.site-nav a:hover, .site-nav:focus{
-    color:var(--color-text);
+.site-nav:hover, .site-nav:focus {
+    color: var(--color-text);
 }
 .logo-color{
     color: var(--color-logo-button);
