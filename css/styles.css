@@ -36,9 +36,10 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 }
-.site-nav:active{
-    color: var(--color-logo-button);
+.link .site-nav:active{
+    color: #404BBF;
 }
+
 .site-nav:hover, .site-nav:focus {
     color: var(--color-text);
 }
@@ -122,8 +123,8 @@ line-height: 1.2px;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.button-hero:active{
-    background-color: #404BBF;
+.section-hero .button-hero:active{
+    background-color:#404BBF;
     color:var(--primary-white-color);
 }
 .button-hero:hover, .button-hero:focus{
